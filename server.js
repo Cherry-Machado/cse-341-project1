@@ -2,7 +2,9 @@ const express = require('express');
 const app = express();
 const process = require('process');
 require('dotenv').config();
- 
+
+app.use('/', require('./routes')); 
+
 app.get('/', (req, res) => {
   res.send("Hello");
 });
