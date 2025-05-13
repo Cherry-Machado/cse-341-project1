@@ -6,10 +6,6 @@ require('dotenv').config();
 
 app.use('/', require('./routes')); 
 
-app.get('/', (req, res) => {
-  res.send("Hello");
-});
- 
 const port = process.env.PORT || 3000; // Fallback to 3000 if no env var
 
 mongodb.initDb((err) => {
