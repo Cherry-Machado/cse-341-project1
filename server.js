@@ -1,4 +1,5 @@
 const express = require('express');
+const mongodb = require('./data/database');
 const app = express();
 const process = require('process');
 require('dotenv').config();
@@ -11,6 +12,10 @@ app.get('/', (req, res) => {
  
 const port = process.env.PORT || 3000; // Fallback to 3000 if no env var
 
-app.listen(port, () => {
-  console.log('Server running on port ' + port);
+mongodb.initDb((err) => {
+  if (err) {
+    console.log(err);
+  } else {
+    app.listen(port, () => { console.log('Database is listening and Node running on port ' + port)});
+  }
 });
