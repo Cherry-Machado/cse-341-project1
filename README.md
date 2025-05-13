@@ -1,5 +1,5 @@
 # BYU-Pathway Worldwide Online
-## WDD 341 - CSE 341: Web Services
+## CSE 341: Web Services
 
 ### ⛺ Project Contactcs Weeks 1 and 2
 
