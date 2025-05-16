@@ -18,7 +18,20 @@ const getSingle = async (req, res) => {
     });
 };
 
+const createContact = (req, res) => {
+    const contact = {
+        firstName: req.body.firstName,
+        lastName: req.body.lastName,
+        email: req.body.email,
+        favoriteColor: req.body.favoriteColor,
+        birthday: req.body.birthday
+    }
+};
+
 module.exports = {
     getAll,
-    getSingle
+    getSingle,
+    createContact,
+    updateContact,
+    deleteContact
 }
