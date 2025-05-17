@@ -1,216 +1,31 @@
-<<<<<<< HEAD
-GET https://cse-341-project1-0a7o.onrender.com/
-
-Result:
-
-HTTP/1.1 200 OK
-Date: Tue, 13 May 2025 06:28:53 GMT
-Content-Type: text/html; charset=utf-8
-Transfer-Encoding: chunked
-Connection: close
-etag: W/"1f-EK8g0ulA/GaNQveRZFgUQjFUpvI"
-rndr-id: 3dedebf6-6c54-4f67
-vary: Accept-Encoding
-x-powered-by: Express
-x-render-origin-server: Render
-cf-cache-status: DYNAMIC
-Server: cloudflare
-CF-RAY: 93f0192a5cdbf22b-GRU
-Content-Encoding: gzip
-alt-svc: h3=":443"; ma=86400
-
-Welcome to my Contacts Project!
+GET https://cse-341-project1-0a7o.onrender.com/contacts
 
 ###
-
-GET localhost:3000/contacts 
-
-Results:
-
-HTTP/1.1 200 OK
-Date: Tue, 13 May 2025 06:30:19 GMT
-Content-Type: application/json; charset=utf-8
-Transfer-Encoding: chunked
-Connection: close
-etag: W/"1d8-HE7RkSuwSVGLLlZCo0MBFUXlRDM"
-rndr-id: 5c294268-f7d5-4170
-vary: Accept-Encoding
-x-powered-by: Express
-x-render-origin-server: Render
-cf-cache-status: DYNAMIC
-Server: cloudflare
-CF-RAY: 93f01b3ebfb7f197-GRU
-Content-Encoding: gzip
-alt-svc: h3=":443"; ma=86400
-
-[
-  {
-    "_id": "6822903247e0754a0f8e896a",
-    "firstName": "Emma",
-    "lastName": "Johnson",
-    "email": "emma.johnson@example.com",
-    "favoriteColor": "blue",
-    "birthday": "1990-05-15"
-  },
-  {
-    "_id": "6822916447e0754a0f8e896b",
-    "firstName": "Carlos",
-    "lastName": "Garcia",
-    "email": "carlos.garcia@example.com",
-    "favoriteColor": "green",
-    "birthday": "1985-11-22"
-  },
-  {
-    "_id": "682291fc47e0754a0f8e896c",
-    "firstName": "Priya",
-    "lastName": "Patel",
-    "email": "priya.patel@example.com",
-    "favoriteColor": "red",
-    "birthday": "1993-08-07"
-  }
-]
+GET https://cse-341-project1-0a7o.onrender.com/contacts/6822916447e0754a0f8e896b
 
 ###
-
-GET https://cse-341-project1-0a7o.onrender.com/contacts/6822916447e0754a0f8e896b 
-
-Result:
-
-HTTP/1.1 200 OK
-Date: Tue, 13 May 2025 06:32:34 GMT
-Content-Type: application/json; charset=utf-8
-Transfer-Encoding: chunked
-Connection: close
-etag: W/"9f-axePAXadE9wV/aO3pzAKZ4PyL+Y"
-rndr-id: a2a0aced-65c8-4f58
-vary: Accept-Encoding
-x-powered-by: Express
-x-render-origin-server: Render
-cf-cache-status: DYNAMIC
-Server: cloudflare
-CF-RAY: 93f01e89ff06628b-GRU
-Content-Encoding: gzip
-alt-svc: h3=":443"; ma=86400
+PUT https://cse-341-project1-0a7o.onrender.com/contacts/
+content-type: application/json
 
 {
-  "_id": "6822916447e0754a0f8e896b",
-  "firstName": "Carlos",
-  "lastName": "Garcia",
-  "email": "carlos.garcia@example.com",
-  "favoriteColor": "green",
-  "birthday": "1985-11-22"
-=======
-GET https://cse-341-project1-0a7o.onrender.com/
-
-Result:
-
-HTTP/1.1 200 OK
-Date: Tue, 13 May 2025 06:28:53 GMT
-Content-Type: text/html; charset=utf-8
-Transfer-Encoding: chunked
-Connection: close
-etag: W/"1f-EK8g0ulA/GaNQveRZFgUQjFUpvI"
-rndr-id: 3dedebf6-6c54-4f67
-vary: Accept-Encoding
-x-powered-by: Express
-x-render-origin-server: Render
-cf-cache-status: DYNAMIC
-Server: cloudflare
-CF-RAY: 93f0192a5cdbf22b-GRU
-Content-Encoding: gzip
-alt-svc: h3=":443"; ma=86400
-
-Welcome to my Contacts Project!
-
-###
-
-GET https://cse-341-project1-0a7o.onrender.com/contacts 
-
-Results:
-
-HTTP/1.1 200 OK
-Date: Tue, 13 May 2025 06:30:19 GMT
-Content-Type: application/json; charset=utf-8
-Transfer-Encoding: chunked
-Connection: close
-etag: W/"1d8-HE7RkSuwSVGLLlZCo0MBFUXlRDM"
-rndr-id: 5c294268-f7d5-4170
-vary: Accept-Encoding
-x-powered-by: Express
-x-render-origin-server: Render
-cf-cache-status: DYNAMIC
-Server: cloudflare
-CF-RAY: 93f01b3ebfb7f197-GRU
-Content-Encoding: gzip
-alt-svc: h3=":443"; ma=86400
-
-[
-  {
-    "_id": "6822903247e0754a0f8e896a",
-    "firstName": "Emma",
-    "lastName": "Johnson",
-    "email": "emma.johnson@example.com",
-    "favoriteColor": "blue",
-    "birthday": "1990-05-15"
-  },
-  {
-    "_id": "6822916447e0754a0f8e896b",
-    "firstName": "Carlos",
-    "lastName": "Garcia",
-    "email": "carlos.garcia@example.com",
-    "favoriteColor": "green",
-    "birthday": "1985-11-22"
-  },
-  {
-    "_id": "682291fc47e0754a0f8e896c",
-    "firstName": "Priya",
-    "lastName": "Patel",
-    "email": "priya.patel@example.com",
-    "favoriteColor": "red",
-    "birthday": "1993-08-07"
-  }
-]
-
-###
-
-GET https://cse-341-project1-0a7o.onrender.com/contacts/6822916447e0754a0f8e896b 
-
-Result:
-
-HTTP/1.1 200 OK
-Date: Tue, 13 May 2025 06:32:34 GMT
-Content-Type: application/json; charset=utf-8
-Transfer-Encoding: chunked
-Connection: close
-etag: W/"9f-axePAXadE9wV/aO3pzAKZ4PyL+Y"
-rndr-id: a2a0aced-65c8-4f58
-vary: Accept-Encoding
-x-powered-by: Express
-x-render-origin-server: Render
-cf-cache-status: DYNAMIC
-Server: cloudflare
-CF-RAY: 93f01e89ff06628b-GRU
-Content-Encoding: gzip
-alt-svc: h3=":443"; ma=86400
-
-{
-  "_id": "6822916447e0754a0f8e896b",
-  "firstName": "Carlos",
-  "lastName": "Garcia",
-  "email": "carlos.garcia@example.com",
-  "favoriteColor": "green",
-  "birthday": "1985-11-22"
->>>>>>> 3864263284a36f9c2938534d33b6af24daafb8f7
+  "firstName": "Luisito",
+  "lastName": "TortaPatel",
+  "email": "luisito@example.com",
+  "favoriteColor": "red",
+  "birthday": "1991-07-07"
 }
 
 ###
-POST https://cse-341-project1-0a7o.onrender.com/contacts/6822916447e0754a0f8e896b 
-Content-Type: application/json
+POST https://cse-341-project1-0a7o.onrender.com/contacts/
+content-type: application/json
+
 {
-  "_id": "6822903247e0754a0f8e896a",
-  "firstName": "Emma",
-  "lastName": "Johnson",
-  "email": "emma.johnson@example.com",
-  "favoriteColor": "blue",
-  "birthday": "1990-05-15"
+  "firstName": "Manguito",
+  "lastName": "Melon",
+  "email": "manguito@example.com",
+  "favoriteColor": "verde",
+  "birthday": "1891-07-06"
 }
+
+###
+DELETE https://cse-341-project1-0a7o.onrender.com/contacts/6827ed8e4ea6805258f454c1
