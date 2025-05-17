@@ -23,7 +23,7 @@ Welcome to my Contacts Project!
 
 ###
 
-GET https://cse-341-project1-0a7o.onrender.com/contacts 
+GET localhost:3000/contacts 
 
 Results:
 
