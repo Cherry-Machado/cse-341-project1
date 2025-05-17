@@ -202,3 +202,15 @@ alt-svc: h3=":443"; ma=86400
   "birthday": "1985-11-22"
 >>>>>>> 3864263284a36f9c2938534d33b6af24daafb8f7
 }
+
+###
+POST https://cse-341-project1-0a7o.onrender.com/contacts/6822916447e0754a0f8e896b 
+Content-Type: application/json
+{
+  "_id": "6822903247e0754a0f8e896a",
+  "firstName": "Emma",
+  "lastName": "Johnson",
+  "email": "emma.johnson@example.com",
+  "favoriteColor": "blue",
+  "birthday": "1990-05-15"
+}
