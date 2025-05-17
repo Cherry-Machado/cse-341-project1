@@ -1,6 +1,7 @@
 const mongodb = require('../data/database');
 const ObjectId = require('mongodb').ObjectId; // This is the Id assigned automatically by MDB. 
 
+
 const getAll = async (req, res) => {
     //#swagger.tags=["Contacts"];
     const result = await mongodb.getDatabase().db().collection('contacts').find();
