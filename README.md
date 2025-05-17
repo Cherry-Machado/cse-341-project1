@@ -8,6 +8,9 @@
  - https://cse-341-project1-0a7o.onrender.com/
  - https://cse-341-project1-0a7o.onrender.com/contacts
  - https://cse-341-project1-0a7o.onrender.com/contacts/6822916447e0754a0f8e896b
+
+Weeks 2 swagger:
+ - https://cse-341-project1-0a7o.onrender.com/api-docs/
  - 
 ### Prerequisites
 
